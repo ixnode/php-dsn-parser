@@ -20,13 +20,13 @@ use Ixnode\PhpDsnParser\DsnParser;
 ```
 
 ```php
-$dsnParser = new DsnParser('smtp://suserweb:S22jD7Po%.,/zu34j@mail.domain.tld:25?verify_peer=0');
+$dsnParser = new DsnParser('smtp://suserweb:S22jD7Po%.,/zu34k@mail.domain.tld:25?verify_peer=0');
 
 print_r($dsnParser->getParsed());
 // (array) [
 //     'protocol' => 'smtp',
 //     'user' => 'suserweb',
-//     'password' => 'S22jD7Po%.,/zu34j',
+//     'password' => 'S22jD7Po%.,/zu34k',
 //     'host' => 'mail.domain.tld',
 //     'port' => 25,
 //     'options' => 'verify_peer=0',
