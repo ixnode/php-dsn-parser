@@ -7,7 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Releases
 
-### [0.1.0] - 2023-07-03
+### [0.1.1] - 2023-09-16
+
+* Update README.md
+
+### [0.1.0] - 2023-09-16
 
 * Initial release with first DSN parser
 * Add src
